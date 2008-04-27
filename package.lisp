@@ -1,12 +1,6 @@
-(defpackage :com.nklein.util
+(defpackage :com.nklein.util.general
     (:use :cl)
     (:export
-	;; from vec-math
-	    :float-type :vector-type
-	    :thef :thev :coercef
-	    :mapv
-	    :v
-	    :vs
 	;; from with-argtypes
 	    :with-argtypes
 	    :proper-list-p

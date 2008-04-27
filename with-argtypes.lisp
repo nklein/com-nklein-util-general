@@ -1,9 +1,4 @@
-(in-package :com.nklein.util)
-
-(defun proper-list-p (x)
-    (if (consp x)
-	(proper-list-p (cdr x))
-	(not x)))
+(in-package :com.nklein.util.general)
 
 (defun prep-typed-vars-and-decls (arg-forms)
     (let (vars decls)
