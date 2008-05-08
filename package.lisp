@@ -5,6 +5,8 @@
 	    :make-compatible-array
 	;; from listy-things
 	    :proper-list-p
+	    :equal-from-less-than
+	    :sequence-comparator
 	;; from random
 	    :random-gaussian
 	;; from with-argtypes
